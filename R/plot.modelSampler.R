@@ -29,8 +29,8 @@ plot.modelSampler= function(x,...){
   n.sample=dim(x$modelTracker)[2]
   beta.names=rownames(x$modelTracker)
   imagePlot=vector("list",n.cov)
-  modelFreq=as.real(x$FPEstrat.pen[1,])
-  modelSize=as.real(colnames(x$FPEstrat.pen))
+  modelFreq=as.double(x$FPEstrat.pen[1,])
+  modelSize=as.double(colnames(x$FPEstrat.pen))
   for (k in 1:n.cov) {
     imagePlot[[k]]=(1:n.sample)[x$modelTracker[k,]==1]
   }
