@@ -1,0 +1,19 @@
+bodyFat                 Body Fat data
+boot.modelSampler       An ensemble technique to select the best subset
+                        of variables
+BostonHousing           Boston Housing data
+BostonHousingI          Boston Housing interaction data
+Diabetes                Diabetes data
+modelSampler            A unique tool for variable selection and model
+                        exploration in linear regression
+Ozone                   Ozone data
+OzoneI                  Ozone interaction data
+plot.FPE                AIC-BIC instability plot
+plot.icicle             Icicle plot
+plot.modelSampler       Graphical analysis of modelSampler
+plot.ooberror           Plot of OOB Error Rate
+plot.var.stability      Variable stability plot
+Pollute                 Pollute data
+print.boot.modelSampler
+                        Print summary output from boot.modelSampler
+print.modelSampler      Print summary output from modelSampler

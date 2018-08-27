@@ -1,0 +1,9 @@
+export(modelSampler,
+	 boot.modelSampler, 
+       print.modelSampler,
+	 print.boot.modelSampler,
+	 plot.FPE,
+	 plot.var.stability,
+	 plot.ooberror,
+	 plot.icicle,
+	 plot.modelSampler)

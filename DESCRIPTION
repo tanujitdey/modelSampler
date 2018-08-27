@@ -1,0 +1,11 @@
+Package: modelSampler
+Version: 1.0.0
+Date: 2018-08-27
+Title: A unique tool for variable selection and model exploration in linear regression model
+Author: Tanujit Dey<tanujit.dey@gmail.com> 
+Maintainer: Tanujit Dey <tanujit.dey@gmail.com>
+Depends: R (>= 3.5.0), randomForest
+Description: Model exploration and variable selection in linear regression.
+License: GNU General Public License Version 2 or higher.
+
+       
